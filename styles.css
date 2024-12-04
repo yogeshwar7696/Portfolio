@@ -1,5 +1,4 @@
 
-/* Responsive design */
 @media (max-width: 768px) {
     .container {
         width: 90%;
@@ -40,8 +39,8 @@
 
 /* Fix for About section */
 #about pre {
-    white-space: normal; /* Avoid breaking layout due to pre */
-    word-wrap: break-word; /* Ensure long words break correctly */
+    white-space: normal; 
+    word-wrap: break-word;
 }
 * {
     margin: 0;
