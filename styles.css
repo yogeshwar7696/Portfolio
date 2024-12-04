@@ -1,3 +1,48 @@
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header {
+        text-align: left;
+        padding: 10px;
+    }
+
+    .profile-image {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    .project {
+        margin-bottom: 15px;
+    }
+
+    form input, form textarea {
+        width: 100%;
+    }
+}
+
+/* Fix for About section */
+#about pre {
+    white-space: normal; /* Avoid breaking layout due to pre */
+    word-wrap: break-word; /* Ensure long words break correctly */
+}
 * {
     margin: 0;
     padding: 0;
